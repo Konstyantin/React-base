@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router";
 
 const Header = (props) => {
     return (
@@ -6,8 +7,8 @@ const Header = (props) => {
             <div className="container">
                 <div className="navbar-header">
                     <div className="nav navbar-nav">
-                        <li><a href="/home">Home</a></li>
-                        <li><a href="/user">User</a></li>
+                        <li><Link to={"/home"}>Home</Link></li>
+                        <li><Link to={"/user/10"}>User</Link></li>
                     </div>
                 </div>
             </div>

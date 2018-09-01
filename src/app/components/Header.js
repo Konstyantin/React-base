@@ -6,12 +6,13 @@ const Header = (props) => {
             <div className="container">
                 <div className="navbar-header">
                     <div className="nav navbar-nav">
-                        <li><a href="">{props.homeLink}</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">User</a></li>
                     </div>
                 </div>
             </div>
         </nav>
     );
-}
+};
 
 export default Header;

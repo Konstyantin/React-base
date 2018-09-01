@@ -1,8 +1,10 @@
-import {React, Component} from "react";
+import React from "react";
 
-class User extends Component {
+class User extends React.Component {
     render() {
-
+        return(
+            <div>User component</div>
+        );
     }
 }
 

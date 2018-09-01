@@ -6,8 +6,8 @@ const Header = (props) => {
             <div className="container">
                 <div className="navbar-header">
                     <div className="nav navbar-nav">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">User</a></li>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/user">User</a></li>
                     </div>
                 </div>
             </div>
